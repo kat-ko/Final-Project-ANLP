@@ -19,3 +19,6 @@ For all files: Change the BASE_DIR to the correct path on your computer.
 * Go inside the folder scr/ and open a console
 * type the bash command calling the train_cnndm.py 
 
+## BERT SOURCE:
+* Most of the code to run the BERT Inference is from https://github.com/nlpyang/PreSumm/tree/dev. The pretrained model which is fine-tuned for Summarisation Tasks can also be found under https://drive.google.com/file/d/1kKWoV0QCbeIuFt85beQgJ4v0lujaXobJ/view.
+
