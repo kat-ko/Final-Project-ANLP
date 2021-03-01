@@ -5,5 +5,7 @@
 
 ## CNNDM
 1. Extracting the cnndm-Data
-2. Running the Data preparation script
-3. 
+* Change the BASE_DIR to the correct path on your computer
+3. Running the Data preparation script
+4. 
+
