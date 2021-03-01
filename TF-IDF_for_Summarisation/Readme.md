@@ -6,15 +6,15 @@
 * Adjust the paths in the beginning of the code to the folders with downloaded datasets
 * Run the code
 
-It takes around 15 minutes to run CNNDM file and around an hour to for scisumm file. <br/>
-It is recommended to start from CNNDM file as it loads the results faster and has a bit higher accuracy of the results.
+It takes around 15 minutes to run CNNDM file and around an hour for scisumm file. <br/>
+It is recommended to start with CNNDM file as it loads the results faster and has a bit higher accuracy of the results.
 
 #### About the files:
 There are two files for running two different datasets:
 * scisumm.ipynb file for a small dataset of the scientific papers 
 * CNNDM.ipynb file for a bigger dataset of the news articles from CNN and Daily-Mail 
 
-Both files consist of implementations TF-IDF and SMMRY algoritms. 
+Both files consist of implementations TF-IDF and SMMRY algoritms and the code is very similar. 
 There is also sklearn implementation of TF-IDF in the end of the files for comparison.
 
 
