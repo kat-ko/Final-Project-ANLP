@@ -6,6 +6,7 @@ For all files: Change the BASE_DIR to the correct path on your computer.
 ## Scisumm 2018
 ### Data Preparation
 * Go into the folder /dataset
+* Unzip the files in /cnndm and extract them into the folder
 * Set all paths correctly and run the cnndm_data_preparation.py script
 
 ### To run the inference
