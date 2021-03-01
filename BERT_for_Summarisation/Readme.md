@@ -1,11 +1,21 @@
 # How to handle Bert for Summarisation?
 
+For all files: Change the BASE_DIR to the correct path on your computer.
+
+
 ## Scisumm 2018
-1. 
+### Data Preparation
+
+
+### To run the inference
+* Go inside the folder scr/ and open a console
+* type the bash command calling the train_scisumm2018.py 
 
 ## CNNDM
-1. Extracting the cnndm-Data
-* Change the BASE_DIR to the correct path on your computer
-3. Running the Data preparation script
-4. 
+### Data Preparation
+
+
+### To run the inference
+* Go inside the folder scr/ and open a console
+* type the bash command calling the train_cnndm.py 
 
