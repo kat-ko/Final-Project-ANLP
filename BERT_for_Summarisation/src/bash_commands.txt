@@ -1,0 +1,3 @@
+python train_scisumm2018.py -task ext -mode test_text -test_from ../models/bertext_cnndm_transformer/bertext_cnndm_transformer.pt
+
+python train_cnndm.py -task ext -mode test_text -test_from ../models/bertext_cnndm_transformer/bertext_cnndm_transformer.pt
