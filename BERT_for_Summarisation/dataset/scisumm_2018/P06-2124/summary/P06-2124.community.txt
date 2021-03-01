@@ -1,0 +1,25 @@
+Under this formalism, the parallel sentence-pairs within a document-pair are assumed to constitute a mixture of hidden topics; each word-pair follows a topic-specific bilingual translation model.
+Three BiTAM models are proposed to capture topic sharing at different levels of linguistic granularity (i.e., at the sentence or word levels).
+Our preliminary experiments show that the proposed models improve word alignment accuracy, and lead to better translation quality.
+Beyond the sentence-level, corpus- level word-correlation and contextual-level topical information may help to disambiguate translation candidates and word-alignment choices.
+For example, the word shot in â€œIt was a nice shot.â€ should be translated differently depending on the context of the sentence: a goal in the context of sports, or a photo within the context of sightseeing.
+In this paper, we propose a probabilistic admixture model to capture latent topics underlying the context of document- pairs.
+Previous works on topical translation models concern mainly explicit logical representations of semantics for machine translation.
+We propose a new statistical formalism: Bilingual Topic AdMixture model, or BiTAM, to facilitate topic-based word alignment in SMT.
+The translation lexicon p(f |e) is the key component in this generative process.
+We start from IBM1 as our baseline model, while higher-order alignment models can be embedded similarly within the proposed framework.
+Because of this coupling of sentence-pairs (via topic sharing across sentence-pairs according to a common topic-weight vector), BiTAM is likely to improve the coherency of translations by treating the document as a whole entity
+Specifically, the latent Dirichlet allocation (LDA) in (Blei et al., 2003) can be viewed as a special case of the BiTAM3, in which the target sentence 1 n p(f n n j=1 |eanj , Bzn ).
+The translation lexicons Bf,e,k have a potential size of V 2K , assuming the vocabulary sizes for both languages are V . The data sparsity (i.e., lack of large volume of document-pairs) poses a more serious problem in estimating Bf,e,k than the monolingual case, for instance, in (Blei et al., 2003).
+To reduce the data sparsity problem, we introduce two remedies in our models.
+First: Laplace smoothing.
+Second: interpolation smoothing.
+Empirically, we can employ a linear interpolation with IBM1 to avoid overfitting:
+Two word-alignment retrieval schemes are designed for BiTAMs: the uni-direction alignment (UDA) and the bi-direction alignment (BDA).
+Inter takes the intersection of the two directions and generates high-precision alignments;
+Topic-specific translation lexicons are learned by a 3-topic BiTAM1.
+Notably, BiTAM allows to test alignments in two directions: English-to Chinese (EC) and Chinese-to-English (CE).
+As shown in Table 4, the baseline IBM1 gives its best performance of 36.27% in the CE direc tion; the UDA alignments from BiTAM1∼3 give 40.13%, 40.26%, and 40.47%, respectively, which are significantly better than IBM1.
+
+
+
