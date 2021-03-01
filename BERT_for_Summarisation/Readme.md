@@ -13,6 +13,10 @@ For all files: Change the BASE_DIR to the correct path on your computer.
 * Go inside the folder scr/ and open a console
 * type the bash command calling the train_scisumm2018.py 
 
+### To run the evaluation
+* Go inside the folder scr/ 
+* run the evaluation_scisumm2018.py script
+
 ## CNNDM
 ### Data Preparation
 * Go into the folder /dataset
@@ -21,6 +25,10 @@ For all files: Change the BASE_DIR to the correct path on your computer.
 ### To run the inference
 * Go inside the folder scr/ and open a console
 * type the bash command calling the train_cnndm.py 
+
+### To run the evaluation
+* Go inside the folder scr/ 
+* run the evaluation_cnndm.py script
 
 ## BERT SOURCE:
 * Most of the code to run the BERT Inference is from https://github.com/nlpyang/PreSumm/tree/dev. 
