@@ -1,4 +1,4 @@
-# How to Handle Bert for Summarisation?
+# How to handle Bert for Summarisation?
 
 ## Scisumm 2018
 1. 
