@@ -100,7 +100,7 @@ for i in range(len(papers)):
 
     bert_papers.append(paper)
 
-file_dir = "N:/Organisatorisches/Bereiche_Teams/ID/03_Studenten/Korte/Newsletter/Automatic Text Summarization/PreSumm_dev/cnndm/papers/"
+file_dir = BASE_DIR + "papers/"
 # Write text to files 
 for i in range(len(bert_papers)):
     print("Writing paper in file no. ", i, "of", len(bert_papers))
@@ -112,7 +112,7 @@ for i in range(len(bert_papers)):
 
     f.close()
 
-file_dir = "N:/Organisatorisches/Bereiche_Teams/ID/03_Studenten/Korte/Newsletter/Automatic Text Summarization/PreSumm_dev/cnndm/summaries/"
+file_dir = BASE_DIR + "summaries/"
 # Write summary to files 
 for i in range(len(bert_papers)):
     print("Writing summary in file no. ", i, "of", len(bert_papers))
@@ -123,11 +123,3 @@ for i in range(len(bert_papers)):
     f.write(bert_papers[i][1])
 
     f.close()
-
-
-result_dir = "N:/Organisatorisches/Bereiche_Teams/ID/03_Studenten/Korte/Newsletter/Automatic Text Summarization/PreSumm_dev/cnndm/results/"
-for i in range(len(bert_papers)):
-    print("Making result directory for paper no. ", i, "of", len(bert_papers))
-    dirname = result_dir + "cnndm_result_" + str(i)
-
-    os.makedirs(dirname)
