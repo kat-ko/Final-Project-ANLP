@@ -8,7 +8,7 @@ In the following chapters, we describe what is inside of this repository and how
 1. Scisumm 2018 (found on: https://github.com/WING-NUS/scisumm-corpus/tree/master/data/Training-Set-2018)
 2. CNN/Daily-Mail (found on: https://drive.google.com/uc?id=1-DLTTioISS8i3UrOG4sjjc_js0ncnBnn)
 
-## Machine Leanrning Methods
+## Machine Learning Methods
 1. TF-IDF
 2. SMMRY
 3. BERT
