@@ -1,0 +1,1 @@
+<q>Furthermore, CFG's are readily fit with a probability distribution (to make probabilistic CFG's--or PCFG's), rendering them suitable for ambiguous languages through the maximum a posteriori rule of choosing the most probable parse.<q>For each nonterminal symbol, a (normalized) probability is placed on the set of all productions from that symbol.
