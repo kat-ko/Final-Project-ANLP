@@ -2,8 +2,6 @@
 
 <b>Automatic Summarisation of scientific papers</b>
 
-In the following chapters, we describe what is inside of this repository and how to run the code.
-
 
 ### The Datasets Used: 
 * Scisumm 2018 (accessible on [Github](https://github.com/WING-NUS/scisumm-corpus/tree/master/data/Training-Set-2018)).  This dataset is small, it consists of 30 papers and their extractive target summarisations.
